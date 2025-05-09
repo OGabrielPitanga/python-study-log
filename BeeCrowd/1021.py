@@ -6,7 +6,7 @@ moedas_centavos = [100, 50, 25, 10, 5, 1]
 
 print("NOTAS: ")
 for nota in notas_centavos:
-    quantidade = centavos //nota
+    quantidade = centavos // nota
     print(f"{quantidade} nota(s) de R${nota / 100:.2f}")
     centavos %= nota
 
